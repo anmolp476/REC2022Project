@@ -19,6 +19,12 @@
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-color: rgb(34, 211, 238);
+}
+
+a{
+  text-decoration: none; 
+  color:black;
 }
 
 .cover-container {
@@ -31,13 +37,13 @@ body {
  */
 
 .nav-masthead .nav-link {
-  color: rgba(255, 255, 255, .5);
-  border-bottom: .25rem solid transparent;
+  color: rgb(0, 0, 0);
+  border-bottom: #000000;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgb(0, 0, 0);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -45,6 +51,6 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: rgb(0, 0, 0)ff;
+  border-bottom-color: rgb(0, 0, 0);
 }
