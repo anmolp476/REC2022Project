@@ -35,9 +35,6 @@ with open("bestWorldGrowthModel.pickle", "wb") as f:
 stdInPickle = open("bestWorldGrowthModel.pickle", "rb")
 linear = pickle.load(stdInPickle)
 
-# The coefficients for the y = mx + b line
-print('Coefficient: \n', linear.coef_)
-print('Intercept: \n', linear.intercept_)  # b
 
 # Do predictions on the test data that we
 # did not train our model on
@@ -46,3 +43,6 @@ modelPredictions = linear.predict(xTest)
 # Loop through the testing data and print out the results for each row
 for x in range(len(modelPredictions)):
     print(modelPredictions[x], xTest[x], yTest[x])
+
+
+
